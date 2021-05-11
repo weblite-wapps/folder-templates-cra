@@ -4,7 +4,7 @@ import useStyle from './[FTName | paramCase].style'
 // localiztion
 import t from './[FTName | paramCase].local'
 
-export default function <FTName | capitalize>(props) {
+export default function <FTName | pascalcase>(props) {
   const classes = useStyle()
 
   return <div className={classes.root}>{t.name}</div>
