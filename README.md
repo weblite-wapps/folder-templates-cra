@@ -38,3 +38,9 @@ right click on a directory and click `Create New Template Folder`
 - for best result use `camelCase` or `param-case` name for you folders
 
 
+## Windows User ⚠️
+ - If file names doesn't convert correctly to given input try to replace `_` with `%` in file names
+ > e.g.  `[FTName%paramCase]` instaed of `[FTName_paramCase]`
+
+
+
